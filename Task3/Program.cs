@@ -24,8 +24,10 @@ namespace Task3
             Ship ship = new Ship(50000, 300, 2000) { Passengers = 28, Port = "Одесса" };
             Plane plane = new Plane(60000, 1000, 1999) { Hight = 10000, Passengers = 147 };
             Car car = new Car(10000, 200, 2020);
-            Console.WriteLine("Швидкiсть корабля {0}, цiна {1}, рiк випуску {2}, кiлькiсть пасажирiв {3}, порт приписки {4}", ship.Speed, ship.Price, ship.Year, ship.Passengers, ship.Port);
-            Console.WriteLine("Швидкiсть лiтака {0}, цiна {1}, рiк випуску {2}, висота {3} кiлькiсть пасажирiв {4}", plane.Speed, plane.Price, plane.Year, plane.Hight, plane.Passengers);
+            Console.WriteLine("Швидкiсть корабля {0}, цiна {1}, рiк випуску {2}, кiлькiсть пасажирiв {3}, порт приписки {4}",
+                ship.Speed, ship.Price, ship.Year, ship.Passengers, ship.Port);
+            Console.WriteLine("Швидкiсть лiтака {0}, цiна {1}, рiк випуску {2}, висота {3} кiлькiсть пасажирiв {4}", 
+                plane.Speed, plane.Price, plane.Year, plane.Hight, plane.Passengers);
             Console.WriteLine("Швидкiсть авто {0}, цiна {1}, рiк випуску {2}", car.Speed, car.Price, car.Year);
 
             // Delay.
